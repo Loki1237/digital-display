@@ -1,0 +1,25 @@
+.screen {
+    display: flex;
+    width: 1296px;
+    border: solid 8px #080;
+    background: black;
+    overflow: hidden;
+}
+
+#input_field {
+    width: 500px;
+    height: 40px;
+    padding: 0 12px;
+    border: solid 8px black;
+    font: 400 18pt Arial;
+    outline: none;
+}
+
+@keyframes display_moving {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
